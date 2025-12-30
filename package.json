@@ -3,6 +3,14 @@
     "private": true,
     "type": "module",
     "description": "A VitePress template with multi-language support, version-based documentation structure, and custom components",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tobemaster56/vitepress-i18n-template.git"
+    },
+    "homepage": "https://github.com/tobemaster56/vitepress-i18n-template#readme",
+    "bugs": {
+        "url": "https://github.com/tobemaster56/vitepress-i18n-template/issues"
+    },
     "scripts": {
         "dev": "vitepress dev docs",
         "build": "vitepress build docs",
