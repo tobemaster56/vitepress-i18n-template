@@ -107,8 +107,9 @@ const resourcesZhTWSidebar = [
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/vitepress-i18n-template/",
   title: "My Documentation",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/vitepress-i18n-template/favicon.ico" }]],
   description: "A VitePress template with multi-language support and version-based documentation structure",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
